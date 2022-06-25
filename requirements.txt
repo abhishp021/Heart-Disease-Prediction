@@ -83,4 +83,9 @@ widgetsnbextension==3.6.1
 wincertstore==0.2
 xgboost==1.6.1
 zipp==3.8.0
+chardet
+joblib
+scikit-learn
+scipy
+threadpoolctl
 gunicorn
