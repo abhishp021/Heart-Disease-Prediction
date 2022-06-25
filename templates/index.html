@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Disease Prediction</title>
+</head>
+
+<body>
+    <h3>Heart Disease Prediction Form</h3>
+ 
+<div>
+  <form action="/predict" method="POST">
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age">
+    <br>
+    
+    <label for="sex">Sex</label>
+    <select id="sex" name="sex">
+      <option value="1">Male</option>
+      <option value="0">Female</option>
+    </select>
+    <br>
+
+    <label for="cp">Chest Pain type</label>
+    <select id="cp" name="cp">
+      <option value="0">Typical angina</option>
+      <option value="1">Atypical angina</option>
+      <option value="2">Not angina</option>
+      <option value="3">Asymptomatic</option>
+    </select>
+    <br>
+    
+    <label for="trestbps">Resting Blood Pressure (in mm Hg)</label>
+    <input type="number" id="trestbps" name="trestbps">
+    <br>
+
+    <label for="chol">Cholestrol</label>
+    <input type="number" id="chol" name="chol">
+    <br>
+
+    <label for="fbs">Fasting Blood Sugar (> 120mg/dl)</label>
+    <select id="fbs" name="fbs">
+      <option value="1">True</option>
+      <option value="0">False</option>
+    </select>
+    <br>
+
+    <label for="restecg">Resting ECG results</label>
+    <select id="restecg" name="restecg">
+      <option value="0">Normal</option>
+      <option value="1">Having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)</option>
+      <option value="2">Showing probable or definite left ventricular hypertrophy by Estes' criteria</option>
+    </select>
+    <br>
+
+    <label for="thalach">Maximum heart rate acheived</label>
+    <input type="number" id="thalach" name="thalach">
+    <br>
+
+    <label for="exang">Exercise induced Angina</label>
+    <select id="exang" name="exang">
+      <option value="1">Yes</option>
+      <option value="0">No</option>
+    </select>
+    <br>
+
+    <label for="oldpeak">ST depression induced by exercise relative to rest</label>
+    <input type="number" step="0.01" id="oldpeak" name="oldpeak">
+    <br>
+
+    <label for="slope">Slope of the peak exercise ST segment</label>
+    <select id="slope" name="slope">
+      <option value="0">Upsloping</option>
+      <option value="1">Flat</option>
+      <option value="2">Downsloping</option>
+    </select>
+    <br>
+
+    <label for="ca">Number of major vessels (0-4) colored by flourosopy</label>
+    <select id="ca" name="ca">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <br>
+    
+    <label for="thal">Thalassemia</label>
+    <select id="thal" name="thal">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+    </select>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
