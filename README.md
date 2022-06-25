@@ -2,7 +2,7 @@
 
 
 ### References for developing flask api and html
-*   https://www.geeksforgeeks.org/deploy-machine-learning-model-using-flask/
+*   https://www.geeksforgeeks.org/deploy-machine-learning-model-using-flask/   (Full Template)
 *   https://www.digitalocean.com/community/tutorials/how-to-use-and-validate-web-forms-with-flask-wtf
 *   https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-20-04
 *   https://www.digitalocean.com/community/tutorials/how-to-create-your-first-web-application-using-flask-and-python-3
