@@ -1,7 +1,7 @@
 # Heart-Disease-Prediction
 
-### APP
-https://heart--disease--predictions.herokuapp.com/
+## APP Link      https://heart--disease--predictions.herokuapp.com/
+
 
 
 
