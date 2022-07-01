@@ -1,7 +1,7 @@
 # Heart-Disease-Prediction
 
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
-<!-- https://heart--disease--predictions.herokuapp.com/ -->
+<!-- https://heart--disease--predictions.herokuapp.com/ --> <!-- This format used for hiding -->
 
 ## Table of Contents
 ### [1. Dataset](#dataset)
