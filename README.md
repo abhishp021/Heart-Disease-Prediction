@@ -58,7 +58,7 @@
 - Also applied MinMaxScaler but did not used with Application
 - Test size was 20% of dataset
 
-# Predictive modelling
+# Predictive Modelling
 Applied various Machine learning algorithms like-
 - Logistic Regression
 - Decision Tree Classifier
