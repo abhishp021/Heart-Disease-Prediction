@@ -5,10 +5,10 @@
 ## Table of Contents
 ### [Go to Dataset](#dataset)
 ### [Go to Data Exploration](#data-exploration)
-### [Data Preprocessing](#data-preprocessing)
-### [Train-Test Splitting](#train-test-splitting)
-### [Predictive Modelling](#predictive-modelling)
-### [Conclusion](#conclusion)
+### [Go to Data Preprocessing](#data-preprocessing)
+### [Go to Train-Test Splitting](#train-test-splitting)
+### [Go to Predictive Modelling](#predictive-modelling)
+### [Go to Conclusion](#conclusion)
 ### [App Deployment](#app-creation-and-deployment)
 
 # Dataset
