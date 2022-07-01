@@ -4,7 +4,7 @@
 
 ## Table of Contents
 ### [Dataset](#dataset)
-### [Data Exploration](#working##data-exploration)
+### [Data Exploration](#data-exploration)
 ### [Data Preprocessing](#data-preprocessing)
 ### [Train-Test Splitting](#train-test-splitting)
 ### [Predictive Modelling](#predictive-modelling)
@@ -47,13 +47,13 @@
 - No null value in dataset
 - Many outliers present in our dataset
 
-## Data preprocessing
+## Data Preprocessing
 - 1 duplicate row was present which was removed
 - No null value in dataset
 - Applied dummy encoding on dataset
 - After removal of outliers dataset contained 283 samples
 
-## Train-test splitting
+## Train-Test Splitting
 - Applied Standard scaler method for scaling (Standardization) 
 - Also applied MinMaxScaler but did not used with Application
 - Test size was 20% of dataset
