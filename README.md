@@ -19,15 +19,14 @@
 8. chol : cholestoral in mg/dl fetched via BMI sensor
 9. fbs : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
 10. rest_ecg : resting electrocardiographic results
-   * Value 0: normal
-   * Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-   * Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
+    * Value 0: normal
+    * Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
+    * Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
 11. thalach : maximum heart rate achieved
 12. slope: the slope of the peak exercise ST segment
-   * Value 1: upsloping
-   * Value 2: flat
-   * Value 3: downsloping
-
+    * Value 1: upsloping
+    * Value 2: flat
+    * Value 3: downsloping
 13. target : 0= less chance of heart attack 1= more chance of heart attack
 
 
