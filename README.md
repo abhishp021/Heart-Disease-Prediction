@@ -1,8 +1,8 @@
 # Heart-Disease-Prediction
 
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
-
-<--! [This is an image](https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Mahadev-Bhagwan-Photo-for-Devotee.jpg) -->
+<!-- https://heart--disease--predictions.herokuapp.com/ -->
+![This is an image](https://www.bhaktiphotos.com/wp-content/uploads/2018/04/Mahadev-Bhagwan-Photo-for-Devotee.jpg) 
 
 ## Table of Contents
 ### [1. Dataset](#dataset)
