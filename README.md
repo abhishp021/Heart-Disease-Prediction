@@ -2,7 +2,7 @@
 
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
 <!-- https://heart--disease--predictions.herokuapp.com/ --> <!-- This format used for hiding -->
-
+![This is an image](https://github.com/abhishp021/Heart-Disease-Prediction/blob/1313261ca3c4433a59891a8987a4a7bc6ab81e01/Screenshots/ScreenShot_20220701171155.jpeg)
 ## Table of Contents
 ### [1. Dataset](#dataset)
 ### [2. Data Exploration](#data-exploration)
