@@ -11,6 +11,8 @@
 ### [Conclusion](#conclusion)
 ### [App Deployment](#app-creation-and-deployment)
 
+## <a name="Conclusion">Conclusion</a>
+
 # Dataset
 * Dataset Imported from kaggle
 * The Dataset contains 14 attributes
