@@ -66,7 +66,7 @@ Applied various Machine learning algorithms like-
 4. Applied RandomizedSearchCV and RepeatedStratifiedKfold for hyperparameters tuning
 
 ## Conclusion
-Logistic Regression algorithm worked best for our Dataset
+Logistic Regression algorithm worked best for our Dataset providing accuracy of 89.5%
 
 # App Creation and Deployment
 - App was created using FLASK - a micro web framework in python
