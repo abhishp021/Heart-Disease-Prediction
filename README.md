@@ -1,35 +1,77 @@
 # Heart-Disease-Prediction
 
-## APP Link      https://heart--disease--predictions.herokuapp.com/
+## App Link      https://heart--disease--predictions.herokuapp.com/
 
-# Working
+# Dataset
 * Dataset Imported from kaggle
 * The Dataset contains 14 attributes
 1. Age : Age of the patient
 2. Sex : Sex of the patient
-3. exang: exercise induced angina (1 = yes; 0 = no)
-4. ca: the number of major blood vessels with a fluorescent color (0-4). Fluorescent color is mainly associated with diabetes
-5. cp : Chest Pain type chest pain type
+3. cp : Chest Pain type chest pain type
    * Value 1: typical angina
    * Value 2: atypical angina
    * Value 3: non-anginal pain
    * Value 4: asymptomatic
-6. trestbps : resting blood pressure (in mm Hg)
-7. oldpeak: ST depression induced by exercise relative to rest OR Patient's old peak history recorded
-8. chol : cholestoral in mg/dl fetched via BMI sensor
-9. fbs : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
-10. rest_ecg : resting electrocardiographic results
+4. trestbps : resting blood pressure (in mm Hg)
+5. chol : cholestoral in mg/dl fetched via BMI sensor
+6. fbs : (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
+7. rest_ecg : resting electrocardiographic results
     * Value 0: normal
     * Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
     * Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
-11. thalach : maximum heart rate achieved
-12. slope: the slope of the peak exercise ST segment
+8. thalach : maximum heart rate achieved
+9. exang: exercise induced angina (1 = yes; 0 = no)
+10. oldpeak: ST depression induced by exercise relative to rest OR Patient's old peak history recorded
+11. slope: the slope of the peak exercise ST segment
     * Value 1: upsloping
     * Value 2: flat
     * Value 3: downsloping
-13. target : 0= less chance of heart attack 1= more chance of heart attack
+12. ca: the number of major blood vessels with a fluorescent color (0-4). Fluorescent color is mainly associated with diabetes
+13. thal: Thalassemia
+14. target : 0= less chance of heart attack 1= more chance of heart attack
 
+# Working
+## Data Exploration
+- Dataset had 14 features and 303 samples
+- Dataset had 5 numerical and 8 categorical features
+- Slightly imbalanced dataset with 54.5% diseased patients
+- No null value in dataset
+- Many outliers present in our dataset
 
+## Data preprocessing
+- 1 duplicate row was present which was removed
+- No null value in dataset
+- Applied dummy encoding on dataset
+- After removal of outliers dataset contained 283 samples
+
+## Train-test splitting
+- Applied Standard scaler method for scaling (Standardization) 
+- Also applied MinMaxScaler but did not used with Application
+- Test size was 20% of dataset
+
+## Predictive modelling
+Applied various Machine learning algorithms like-
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- Naive Bayes' Classifier
+- Support Vector Machine
+- K-Nearest Neighbours
+- Gradient Boosting
+- Extreme Gradient Boosting (XG Boost)
+
+1. Created Confusion matrix for all classifiers
+2. Drawn Roc Curves
+3. Made Classification report
+4. Applied RandomizedSearchCV and RepeatedStratifiedKfold for hyperparameters tuning
+
+## Conclusion
+Logistic Regression algorithm worked best for our Dataset
+
+# App Creation and Deployment
+- App was created using FLASK - a micro web framework in python
+- App was deployed using Heroku - providing platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+- App link - https://heart--disease--predictions.herokuapp.com/
 
 
 
