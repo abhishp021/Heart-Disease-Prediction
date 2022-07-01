@@ -43,11 +43,11 @@ Our Web API looks something like this
 
 
 # Data Exploration
-- Dataset had 14 features and 303 samples
-![Initial Dataset](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170651.jpeg)
+- Dataset had 14 features and 303 samples <br />
+![Initial Dataset](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170651.jpeg)<br />
 - Dataset had 5 numerical and 8 categorical features
-- Slightly imbalanced dataset with 54.5% diseased patients
-![Imbalanced Dataset](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170713.jpeg)
+- Slightly imbalanced dataset with 54.5% diseased patients<br />
+![Imbalanced Dataset](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170713.jpeg)<br />
 - No null value in dataset
 - Many outliers present in our dataset
 
