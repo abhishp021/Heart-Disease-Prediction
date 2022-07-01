@@ -3,8 +3,8 @@
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
 
 ## Table of Contents
-### [Dataset](#dataset)
-### [Data Exploration](#data-exploration)
+### [Go to Dataset](#dataset)
+### [Go to Data Exploration](#data-exploration)
 ### [Data Preprocessing](#data-preprocessing)
 ### [Train-Test Splitting](#train-test-splitting)
 ### [Predictive Modelling](#predictive-modelling)
