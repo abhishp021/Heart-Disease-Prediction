@@ -3,7 +3,7 @@
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
 
 ## Table of Contents
-### [Dataset] (#dataset)
+### [Dataset](#dataset)
 ### [Data Exploration](#data-exploration)
 ### [Data Preprocessing](#data-preprocessing)
 ### [Train-Test Splitting](#train-test-splitting)
@@ -70,7 +70,7 @@ Applied various Machine learning algorithms like-
 - Extreme Gradient Boosting (XG Boost)
 
 1. Created Confusion matrix for all classifiers
-2. Drawn Roc Curves
+2. Drawn plot of Roc Curves
 3. Made Classification report
 4. Applied RandomizedSearchCV and RepeatedStratifiedKfold for hyperparameters tuning
 
