@@ -1,6 +1,7 @@
 # Heart-Disease-Prediction
 
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
+Our Web API looks something like this
 <!-- https://heart--disease--predictions.herokuapp.com/ --> <!-- This format used for hiding -->
 ![This is an image](https://github.com/abhishp021/Heart-Disease-Prediction/blob/1313261ca3c4433a59891a8987a4a7bc6ab81e01/Screenshots/ScreenShot_20220701171155.jpeg)
 ## Table of Contents
@@ -43,16 +44,20 @@
 
 # Data Exploration
 - Dataset had 14 features and 303 samples
+![Initial Dataset](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170651.jpeg)
 - Dataset had 5 numerical and 8 categorical features
 - Slightly imbalanced dataset with 54.5% diseased patients
+![Imbalanced Dataset](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170713.jpeg)
 - No null value in dataset
 - Many outliers present in our dataset
 
 # Data Preprocessing
 - 1 duplicate row was present which was removed
 - No null value in dataset
-- Applied dummy encoding on dataset
 - After removal of outliers dataset contained 283 samples
+- Applied dummy encoding on dataset
+![Dummy encoding](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170740.jpeg)
+
 
 # Train-Test Splitting
 - Applied Standard scaler method for scaling (Standardization) 
@@ -76,7 +81,8 @@ Applied various Machine learning algorithms like-
 4. Applied RandomizedSearchCV and RepeatedStratifiedKfold for hyperparameters tuning
 
 # Conclusion
-Logistic Regression algorithm worked best for our Dataset providing accuracy of 89.5%
+![Accuracy table](https://github.com/abhishp021/Heart-Disease-Prediction/blob/a1c527769d09b14b21e6e5293fa9739aa4c74662/Screenshots/ScreenShot_20220701170536.jpeg)
+Clearly Logistic Regression algorithm worked best for our Dataset providing accuracy of 89.5%
 
 # App Creation and Deployment
 - App was created using FLASK - a micro web framework in python
