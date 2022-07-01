@@ -3,13 +3,13 @@
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
 
 ## Table of Contents
-### [- Dataset](#dataset)
-### [- Data Exploration](#data-exploration)
-### [Go to Data Preprocessing](#data-preprocessing)
-### [Go to Train-Test Splitting](#train-test-splitting)
-### [Go to Predictive Modelling](#predictive-modelling)
-### [Go to Conclusion](#conclusion)
-### [App Deployment](#app-creation-and-deployment)
+### [1. Dataset](#dataset)
+### [2. Data Exploration](#data-exploration)
+### [3. Data Preprocessing](#data-preprocessing)
+### [4. Train-Test Splitting](#train-test-splitting)
+### [5. Predictive Modelling](#predictive-modelling)
+### [6. Conclusion](#conclusion)
+### [7. App Deployment](#app-creation-and-deployment)
 
 # Dataset
 * Dataset Imported from kaggle
