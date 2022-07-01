@@ -39,26 +39,26 @@
 13. thal: Thalassemia
 14. target : 0= less chance of heart attack 1= more chance of heart attack
 
-# Working
-## Data Exploration
+
+# Data Exploration
 - Dataset had 14 features and 303 samples
 - Dataset had 5 numerical and 8 categorical features
 - Slightly imbalanced dataset with 54.5% diseased patients
 - No null value in dataset
 - Many outliers present in our dataset
 
-## Data Preprocessing
+# Data Preprocessing
 - 1 duplicate row was present which was removed
 - No null value in dataset
 - Applied dummy encoding on dataset
 - After removal of outliers dataset contained 283 samples
 
-## Train-Test Splitting
+# Train-Test Splitting
 - Applied Standard scaler method for scaling (Standardization) 
 - Also applied MinMaxScaler but did not used with Application
 - Test size was 20% of dataset
 
-## Predictive modelling
+# Predictive modelling
 Applied various Machine learning algorithms like-
 - Logistic Regression
 - Decision Tree Classifier
@@ -74,7 +74,7 @@ Applied various Machine learning algorithms like-
 3. Made Classification report
 4. Applied RandomizedSearchCV and RepeatedStratifiedKfold for hyperparameters tuning
 
-## Conclusion
+# Conclusion
 Logistic Regression algorithm worked best for our Dataset providing accuracy of 89.5%
 
 # App Creation and Deployment
