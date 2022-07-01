@@ -2,6 +2,8 @@
 
 ## [App Link](https://heart--disease--predictions.herokuapp.com/)
 
+### [Go to Dataset](#dataset)
+
 # Dataset
 * Dataset Imported from kaggle
 * The Dataset contains 14 attributes
