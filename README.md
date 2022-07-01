@@ -1,6 +1,6 @@
 # Heart-Disease-Prediction
 
-## App Link      https://heart--disease--predictions.herokuapp.com/
+## [App Link]      (https://heart--disease--predictions.herokuapp.com/)
 
 # Dataset
 * Dataset Imported from kaggle
